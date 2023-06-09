@@ -1,0 +1,120 @@
+@font-face {
+	font-family: 'dotMPlusH12';
+	src: url('./font/JF-Dot-MPlusH12.woff') format('woff');
+}
+
+body {
+	background-color: #000000 !important;
+	color: #ffffff !important;
+}
+
+.bodyHide {
+	background-color: #add8e6 !important;
+}
+
+.title {
+	margin: 0 !important;
+	color: #000000 !important;
+	font-size: 3.2rem;
+}
+
+/* top */
+.top {
+	height: 6vh;
+	margin-bottom: 1.5vh;
+	text-align: center;
+}
+
+.content {
+	width: 95%;
+	margin: auto;
+}
+
+
+/* date time */
+#_date, #_time {
+	color: #000000 !important;
+}
+
+.dtHide {
+	display: flex;
+}
+
+.dtHide > #_date, .dtHide > #_time {
+	color: #ffffff !important;
+}
+
+#_dateTime {
+	width: 100%;
+	font-size: 2.2rem;
+}
+
+#_date {
+	width: 55%;
+	margin: auto;
+	text-align: center;
+}
+
+#_time {
+	width: 35%;
+	margin: auto;
+	text-align: center;
+}
+
+
+/* content */
+.hide {
+	display: none;
+}
+
+#_hide {
+	width: 100%;
+}
+
+.chara {
+	width: 95%;
+	margin: auto;
+	text-align: center;
+}
+
+.chara_img {
+	width: 90%;
+}
+
+.contentTop {
+	height: 5vh;
+	font-size: 2.4rem;
+	margin-bottom: 3vh !important;
+}
+
+.container.is-dark::before {
+    background-color: #000000 !important;
+}
+
+.nes-radio:checked+span::before {
+	color: #ffffff !important;
+}
+
+.contentBottom {
+	height: 30vh;
+}
+
+.log_img {
+	height: 3.8vh;
+}
+
+.cmd_img {
+	height: 20vh;
+}
+
+#_logo1_id {
+	height: 6vh;
+}
+
+#_logo2_id {
+	height: 6vh;
+}
+
+.chara3 {
+	margin-top: 15vh !important;
+}

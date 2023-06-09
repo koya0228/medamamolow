@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="./index.css">
+		<!-- NEC.css -->
+		<link href="https://unpkg.com/nes.css@0.0.2/css/nes.min.css" rel="stylesheet" />
+		<link href="https://unpkg.com/nes.css@2.2.0/css/nes.min.css" rel="stylesheet" />
+		<title>めだまもlow</title>
+		<link rel="icon" href="./img/favicon.ico">
+	</head>
+	<body id='_body' class=''>
+		<div class='top'>
+			<!--<p class='title'>めだまもlow</p>-->
+			<img src='./img/title_logo1.png' id='_logo1_id' class=''>
+			<img src='./img/title_logo2.png' id='_logo2_id' class='logo_hide'>
+		</div>
+		
+		<div class='content'>
+			<!-- 時間表示 -->
+			<div id='_dateTime' class=''>
+				<div id='_date'></div>
+				<div id='_time'></div>
+			</div>
+			
+			<div id='_chara3' class='hide'>
+				<img src='./img/chara3.png' class='chara3'>
+			</div>
+			
+			<!-- 暗いとき 表示 -->
+			<div id='_hide' class=''>
+				<div class='chara'>
+					<img src='./img/chara1.jpg' class='chara_img'>
+				</div>
+				<div class='contentTop container is-rounded is-dark'>
+					<img src='./img/log.jpg' class='log_img'>
+					<!--<p>が現れた！</p>-->
+				</div>
+				<div class='contentBottom container is-rounded is-dark'>
+					<img src='./img/cmd.jpg' class='cmd_img'>
+					<!--<label>
+						<input type="radio" class="nes-radio" name="answer" checked />
+						<span>
+							
+						</span>
+					</label>
+					
+					<label>
+					 	<input type="radio" class="nes-radio" name="answer" />
+					 	<span>
+							 
+						 </span>
+					</label>
+					
+					<label>
+					 	<input type="radio" class="nes-radio" name="answer" />
+					 	<span>
+							 
+						 </span>
+					</label>-->
+				</div>
+			</div>
+		</div>
+		
+		<!-- moment.js 読み込み -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/0.0.11/push.min.js"></script>
+		<!-- JavaScript読み込み -->
+		<script src='./main.js'></script>
+	</body>
+</html>
